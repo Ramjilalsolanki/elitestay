@@ -17,6 +17,7 @@
     padding: 2rem;
     text-align: center;
     position: relative;
+    
   }
   
   header::before {
@@ -52,7 +53,7 @@
     color: #fff;
     text-decoration: none;
     font-weight: bold;
-    transition: color 0.3s;
+    transition: color 0.3s ;
   }
   
   nav ul li a:hover {
@@ -102,7 +103,7 @@
     padding: 2rem;
     border-radius: 10px;
     width: 280px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 8px #7eaac9 ;
     transition: transform 0.3s ease;
   }
   
@@ -112,7 +113,7 @@
   
   blockquote {
     background: #f0f8ff;
-    margin: 1rem auto;
+    margin: 1rem ;
     padding: 1rem;
     border-left: 5px solid #0077cc;
     font-style: italic;
@@ -133,6 +134,7 @@
     gap: 1rem;
     max-width: 500px;
     margin: auto;
+    
   }
   
   form input,
@@ -152,6 +154,7 @@
     border-radius: 5px;
     font-weight: bold;
     cursor: pointer;
+    
   }
   
   form button:hover {
@@ -200,14 +203,16 @@
   border-radius: 50%;
   object-fit: cover;
 }
-#gallery {
+/* #gallery {
   background-color: #fff;
   padding: 2rem 1rem;
   text-align: center;
+  
 }
 .gallery-container {
   max-width: 1200px;
   margin: 0 auto;
+  align-items: center;
 }
 .gallery-grid {
   display: grid;
@@ -231,7 +236,7 @@
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 16px;
-}
+} */
 
 .feature-section {
   padding: 40px 0; /* Reduce vertical spacing */
@@ -244,8 +249,9 @@
   background-position: center;
   border-radius: 12px;
   overflow: hidden;
-  box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+  box-shadow:  0 2px 8px #7eaac9;
   transition: transform 0.3s ease;
+  
 }
 
 .feature-image:hover {
@@ -259,6 +265,7 @@
   color: white;
   padding: 20px;
   width: 100%;
+  
 }
 
 .feature-section {
@@ -266,14 +273,15 @@
 }
 
 .feature-image {
-  position: relative;
+  position: center;
   height: 400px;
   background-size: cover;
   background-position: center;
   border-radius: 15px;
   overflow: hidden;
   transition: transform 0.3s ease, filter 0.3s ease;
-  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  box-shadow: 0 2px 8px #7eaac9;
+  
 }
 
 .feature-image:hover {
